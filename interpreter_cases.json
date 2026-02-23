@@ -1,0 +1,302 @@
+{
+  "x = 5\ny = 10\nresult = x + y\nprint(result)": {
+    "error": [],
+    "result": "15\n"
+  },
+  "numbers = [1, 2, 3, 4, 5]\ntotal = sum(numbers)\nprint(f'Sum: {total}')": {
+    "error": [],
+    "result": "Sum: 15\n"
+  },
+  "def greet(name):\n    return f'Hello, {name}!'\n\nmessage = greet('Alice')\nprint(message)": {
+    "error": [],
+    "result": "Hello, Alice!\n"
+  },
+  "for i in range(3):\n    print(i * 2)": {
+    "error": [],
+    "result": "0\n2\n4\n"
+  },
+  "data = {'name': 'John', 'age': 30}\nprint(data['name'])\nprint(data['age'])": {
+    "error": [],
+    "result": "John\n30\n"
+  },
+  "text = 'hello world'\nprint(text.upper())\nprint(len(text))": {
+    "error": [],
+    "result": "HELLO WORLD\n11\n"
+  },
+  "import math\nresult = math.sqrt(16)\nprint(int(result))": {
+    "error": [],
+    "result": "4\n"
+  },
+  "numbers = [x**2 for x in range(5)]\nprint(numbers)": {
+    "error": [],
+    "result": "[0, 1, 4, 9, 16]\n"
+  },
+  "a, b = 10, 20\na, b = b, a\nprint(f'a={a}, b={b}')": {
+    "error": [],
+    "result": "a=20, b=10\n"
+  },
+  "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(5))": {
+    "error": [],
+    "result": "120\n"
+  },
+  "text = 'Python'\nprint(text[:3])\nprint(text[3:])": {
+    "error": [],
+    "result": "Pyt\nhon\n"
+  },
+  "x = True\ny = False\nprint(x and y)\nprint(x or y)": {
+    "error": [],
+    "result": "False\nTrue\n"
+  },
+  "words = ['hello', 'world']\nresult = ' '.join(words)\nprint(result)": {
+    "error": [],
+    "result": "hello world\n"
+  },
+  "x = -7.8\nprint(abs(x))\nprint(round(x))": {
+    "error": [],
+    "result": "7.8\n-8\n"
+  },
+  "nums = [3, 1, 4, 1, 5]\nprint(sorted(nums))": {
+    "error": [],
+    "result": "[1, 1, 3, 4, 5]\n"
+  },
+  "items = ['a', 'b', 'c']\nfor i, v in enumerate(items):\n    print(i, v)": {
+    "error": [],
+    "result": "0 a\n1 b\n2 c\n"
+  },
+  "d = {'x': 1, 'y': 2}\nprint(list(d.keys()))\nprint(list(d.values()))": {
+    "error": [],
+    "result": "['x', 'y']\n[1, 2]\n"
+  },
+  "sentence = 'one two three'\nparts = sentence.split()\nprint(len(parts))\nprint(parts[1])": {
+    "error": [],
+    "result": "3\ntwo\n"
+  },
+  "nums = [4, 7, 2, 9, 1]\nprint(min(nums))\nprint(max(nums))": {
+    "error": [],
+    "result": "1\n9\n"
+  },
+  "i = 3\nwhile i > 0:\n    print(i)\n    i -= 1": {
+    "error": [],
+    "result": "3\n2\n1\n"
+  },
+  "point = (3, 4)\nx, y = point\nprint(x + y)": {
+    "error": [],
+    "result": "7\n"
+  },
+  "text = 'foo bar foo'\nresult = text.replace('foo', 'baz')\nprint(result)": {
+    "error": [],
+    "result": "baz bar baz\n"
+  },
+  "a = {1, 2, 3}\nb = {2, 3, 4}\nprint(sorted(a & b))\nprint(sorted(a | b))": {
+    "error": [],
+    "result": "[2, 3]\n[1, 2, 3, 4]\n"
+  },
+  "result = list(range(0, 10, 3))\nprint(result)": {
+    "error": [],
+    "result": "[0, 3, 6, 9]\n"
+  },
+  "s = 'hello.py'\nprint(s.startswith('hello'))\nprint(s.endswith('.py'))": {
+    "error": [],
+    "result": "True\nTrue\n"
+  },
+  "matrix = [[1, 2], [3, 4], [5, 6]]\nprint(matrix[1][0])\nprint(matrix[2][1])": {
+    "error": [],
+    "result": "3\n6\n"
+  },
+  "x = 42\nprint(isinstance(x, int))\nprint(isinstance(x, str))": {
+    "error": [],
+    "result": "True\nFalse\n"
+  },
+  "keys = ['a', 'b', 'c']\nvals = [1, 2, 3]\nd = dict(zip(keys, vals))\nprint(d)": {
+    "error": [],
+    "result": "{'a': 1, 'b': 2, 'c': 3}\n"
+  },
+  "x = 17\nprint(x // 5)\nprint(x % 5)": {
+    "error": [],
+    "result": "3\n2\n"
+  },
+  "lst = [1, 2, 3]\nlst.append(4)\nlst.pop(0)\nprint(lst)": {
+    "error": [],
+    "result": "[2, 3, 4]\n"
+  },
+  "x = 5\ny = 10\nresult = x + y\nprint(result)`,hasError:!1,expectedOutput:`15\n`,errorLines:[]},{id:2,code:`numbers = [1, 2, 3, 4, 5]\ntotal = sum(numbers)\nprint(f'Sum: {total}')`,hasError:!1,expectedOutput:`Sum: 15\n`,errorLines:[]},{id:3,code:`def greet(name):\n    return f'Hello, {name}!'\n\nmessage = greet('Alice')\nprint(message)`,hasError:!1,expectedOutput:`Hello, Alice!\n`,errorLines:[]},{id:4,code:`for i in range(3):\n    print(i * 2)`,hasError:!1,expectedOutput:`0\n2\n4\n`,errorLines:[]},{id:5,code:`data = {'name': 'John', 'age': 30}\nprint(data['name'])\nprint(data['age'])`,hasError:!1,expectedOutput:`John\n30\n`,errorLines:[]},{id:6,code:`text = 'hello world'\nprint(text.upper())\nprint(len(text))`,hasError:!1,expectedOutput:`HELLO WORLD\n11\n`,errorLines:[]},{id:7,code:`import math\nresult = math.sqrt(16)\nprint(int(result))`,hasError:!1,expectedOutput:`4\n`,errorLines:[]},{id:8,code:`numbers = [x**2 for x in range(5)]\nprint(numbers)`,hasError:!1,expectedOutput:`[0, 1, 4, 9, 16]\n`,errorLines:[]},{id:9,code:`a, b = 10, 20\na, b = b, a\nprint(f'a={a}, b={b}')`,hasError:!1,expectedOutput:`a=20, b=10\n`,errorLines:[]},{id:10,code:`def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(5))`,hasError:!1,expectedOutput:`120\n`,errorLines:[]},{id:21,code:`text = 'Python'\nprint(text[:3])\nprint(text[3:])`,hasError:!1,expectedOutput:`Pyt\nhon\n`,errorLines:[]},{id:22,code:`x = True\ny = False\nprint(x and y)\nprint(x or y)`,hasError:!1,expectedOutput:`False\nTrue\n`,errorLines:[]},{id:23,code:`words = ['hello', 'world']\nresult = ' '.join(words)\nprint(result)`,hasError:!1,expectedOutput:`hello world\n`,errorLines:[]},{id:24,code:`x = -7.8\nprint(abs(x))\nprint(round(x))`,hasError:!1,expectedOutput:`7.8\n-8\n`,errorLines:[]},{id:25,code:`nums = [3, 1, 4, 1, 5]\nprint(sorted(nums))`,hasError:!1,expectedOutput:`[1, 1, 3, 4, 5]\n`,errorLines:[]},{id:26,code:`items = ['a', 'b', 'c']\nfor i, v in enumerate(items):\n    print(i, v)`,hasError:!1,expectedOutput:`0 a\n1 b\n2 c\n`,errorLines:[]},{id:27,code:`d = {'x': 1, 'y': 2}\nprint(list(d.keys()))\nprint(list(d.values()))`,hasError:!1,expectedOutput:`['x', 'y']\n[1, 2]\n`,errorLines:[]},{id:28,code:`sentence = 'one two three'\nparts = sentence.split()\nprint(len(parts))\nprint(parts[1])`,hasError:!1,expectedOutput:`3\ntwo\n`,errorLines:[]},{id:29,code:`nums = [4, 7, 2, 9, 1]\nprint(min(nums))\nprint(max(nums))`,hasError:!1,expectedOutput:`1\n9\n`,errorLines:[]},{id:30,code:`i = 3\nwhile i > 0:\n    print(i)\n    i -= 1`,hasError:!1,expectedOutput:`3\n2\n1\n`,errorLines:[]},{id:31,code:`point = (3, 4)\nx, y = point\nprint(x + y)`,hasError:!1,expectedOutput:`7\n`,errorLines:[]},{id:32,code:`text = 'foo bar foo'\nresult = text.replace('foo', 'baz')\nprint(result)`,hasError:!1,expectedOutput:`baz bar baz\n`,errorLines:[]},{id:33,code:`a = {1, 2, 3}\nb = {2, 3, 4}\nprint(sorted(a & b))\nprint(sorted(a | b))`,hasError:!1,expectedOutput:`[2, 3]\n[1, 2, 3, 4]\n`,errorLines:[]},{id:34,code:`result = list(range(0, 10, 3))\nprint(result)`,hasError:!1,expectedOutput:`[0, 3, 6, 9]\n`,errorLines:[]},{id:35,code:`s = 'hello.py'\nprint(s.startswith('hello'))\nprint(s.endswith('.py'))`,hasError:!1,expectedOutput:`True\nTrue\n`,errorLines:[]},{id:36,code:`matrix = [[1, 2], [3, 4], [5, 6]]\nprint(matrix[1][0])\nprint(matrix[2][1])`,hasError:!1,expectedOutput:`3\n6\n`,errorLines:[]},{id:37,code:`x = 42\nprint(isinstance(x, int))\nprint(isinstance(x, str))`,hasError:!1,expectedOutput:`True\nFalse\n`,errorLines:[]},{id:38,code:`keys = ['a', 'b', 'c']\nvals = [1, 2, 3]\nd = dict(zip(keys, vals))\nprint(d)`,hasError:!1,expectedOutput:`{'a': 1, 'b': 2, 'c': 3}\n`,errorLines:[]},{id:39,code:`x = 17\nprint(x // 5)\nprint(x % 5)`,hasError:!1,expectedOutput:`3\n2\n`,errorLines:[]},{id:40,code:`lst = [1, 2, 3]\nlst.append(4)\nlst.pop(0)\nprint(lst)`,hasError:!1,expectedOutput:`[2, 3, 4]\n`,errorLines:[]},{id:11,code:`x = 10\ny = 0\nresult = x / y\nprint(result)": {
+    "error": [
+      3
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 3, in <module>\nZeroDivisionError: error"
+  },
+  "numbers = [1, 2, 3]\nprint(numbers[0])\nprint(numbers[5])": {
+    "error": [
+      3
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 3, in <module>\nIndexError: error"
+  },
+  "data = {'name': 'Alice'}\nprint(data['name'])\nprint(data['age'])": {
+    "error": [
+      3
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 3, in <module>\nKeyError: error"
+  },
+  "x = '10'\ny = 5\nresult = x + y\nprint(result)": {
+    "error": [
+      3
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 3, in <module>\nTypeError: error"
+  },
+  "def divide(a, b):\n    return a / b\n\nresult = divide(10, 0)\nprint(result)": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nZeroDivisionError: error"
+  },
+  "import non_existent_module\nx = 10\nprint(x)": {
+    "error": [
+      1
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: error"
+  },
+  "numbers = [1, 2, 3]\nfor i in range(5):\n    print(numbers[i])": {
+    "error": [
+      3
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 3, in <module>\nIndexError: error"
+  },
+  "text = None\nprint(text.upper())": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nAttributeError: error"
+  },
+  "x = 10\ny = '5'\nif x > y:\n    print('Greater')": {
+    "error": [
+      3
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 3, in <module>\nTypeError: error"
+  },
+  "def process():\n    x = 10\n    print(y)\n\nprocess()": {
+    "error": [
+      3
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 3, in <module>\nNameError: error"
+  },
+  "x = 5\nif x > 3\n    print('yes')": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nSyntaxError: error"
+  },
+  "x = 10\nresult = x(5)\nprint(result)": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nTypeError: error"
+  },
+  "s = 'abc'\nx = int(s)\nprint(x)": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nValueError: error"
+  },
+  "x = 5\nx.append(10)\nprint(x)": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nAttributeError: error"
+  },
+  "print(result)\nresult = 42": {
+    "error": [
+      1
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nNameError: error"
+  },
+  "lst = []\nprint(lst[0])": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nIndexError: error"
+  },
+  "def recurse():\n    return recurse()\n\nrecurse()": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nRecursionError: error"
+  },
+  "x = None\ny = x + 1\nprint(y)": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nTypeError: error"
+  },
+  "d = {'outer': {'inner': 1}}\nprint(d['outer']['missing'])": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nKeyError: error"
+  },
+  "x = 10\ny = 0\nprint(x % y)": {
+    "error": [
+      3
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 3, in <module>\nZeroDivisionError: error"
+  },
+  "x = 42\nprint(len(x))": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nTypeError: error"
+  },
+  "lst = [1, 2, 3]\nprint(lst.keys())": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nAttributeError: error"
+  },
+  "lst = [1, 2, 3]\nlst.remove(99)\nprint(lst)": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nValueError: error"
+  },
+  "a = 'hello'\nb = 'world'\nprint(a * b)": {
+    "error": [
+      3
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 3, in <module>\nTypeError: error"
+  },
+  "from fake_library import something\nprint(something)": {
+    "error": [
+      1
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: error"
+  },
+  "def foo():\n    print(z)\n    z = 5\n\nfoo()": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nUnboundLocalError: error"
+  },
+  "lst = [10, 20, 30]\nprint(lst[-10])": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nIndexError: error"
+  },
+  "def add(a, b):\n    return a + b\n\nresult = add(1, 2, 3)\nprint(result)": {
+    "error": [
+      4
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 4, in <module>\nTypeError: error"
+  },
+  "import math\nresult = math.sqrt(-1)\nprint(result)": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nValueError: error"
+  },
+  "t = (3, 1, 2)\nt.sort()\nprint(t)": {
+    "error": [
+      2
+    ],
+    "result": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nAttributeError: error"
+  }
+}

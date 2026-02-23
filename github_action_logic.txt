@@ -1,0 +1,33 @@
+se as ur}from"https://cdn.jsdelivr.net/npm/yaml/+esm";async function pr({user:e,weight:a=1}){let t="q-scheduled-github-actions",s="Create a Scheduled GitHub Action",l=async i=>{let r=i.match(/https:\/\/github\.com\/([^/]+)\/([^/]+)/);if(!r)throw new Error("URL does not match https://github.com/<user>/<repo>");let[,d,p]=r,n=`https://api.github.com/repos/${d}/${p}/actions/runs`,{workflow_runs:o}=await fetch(n).then($=>$.json());if(!o?.length)throw new Error("No workflow runs found");let c=o[0],m=`https://api.github.com/repos/${d}/${p}/contents/.github/workflows`,h=await fetch(m).then($=>$.json());if(!h?.length)throw new Error("No workflow files found");let f=!1;for(let $ of h){let T=await fetch($.download_url).then(x=>x.text()),D=ur(T);for(let x of D?.on?.schedule??[]){let v=x.cron.trim().split(/\s+/);v[0]!="*"&&v[1]!="*"&&v[2]=="*"&&v[3]=="*"&&v[4]=="*"&&(f=!0)}}if(!f)throw new Error("No daily scheduled triggers found in workflows");let{jobs:g}=await fetch(c.jobs_url).then($=>$.json()),y=!1,w=`https://api.github.com/repos/${d}/${p}/commits`,b=await fetch(w).then($=>$.json()),E=new Date(c.created_at),k=new Date(c.updated_at),S=b.some($=>{let T=new Date($.commit.author.date);return T>=E&&T<=new Date(k.getTime()+5*6e4)});for(let{steps:$}of g)for(let{name:T}of $)T.includes(e.email)&&(y=!0);if(!y)throw new Error(`Latest run does ${c.html_url} not include ${e.email} in the name`);if(!S)throw new Error(`Latest workflow run was at ${k.toLocaleString()} but there was no commit to the repo after that within 5 minutes`);return!0},u=dr`
+    <div class="mb-3">
+      <h2>Automating Repository Updates for DevSync</h2>
+      <p>
+        <strong>DevSync Solutions</strong> is a mid-sized software development company specializing in collaborative
+        tools for remote teams. With a growing client base and an expanding portfolio of projects, DevSync emphasizes
+        efficient workflow management and robust version control practices to maintain high-quality software delivery.
+      </p>
+      <p>
+        As part of their commitment to maintaining seamless and transparent development processes, DevSync has
+        identified the need to implement automated daily updates to their GitHub repositories. These updates serve
+        multiple purposes:
+      </p>
+      <ol>
+        <li>
+          <strong>Activity Tracking:</strong> Ensuring that each repository reflects daily activity helps in monitoring
+          project progress and team engagement.
+        </li>
+        <li>
+          <strong>Automated Documentation:</strong> Regular commits can be used to update status files, logs, or
+          documentation without manual intervention.
+        </li>
+        <li>
+          <strong>Backup and Recovery:</strong> Automated commits provide an additional layer of backup, ensuring that
+          changes are consistently recorded.
+        </li>
+        <li>
+          <strong>Compliance and Auditing:</strong> Maintaining a clear commit history aids in compliance with industry
+          standards and facilitates auditing processes.
+        </li>
+      </ol>
+      <p>
+      

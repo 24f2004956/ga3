@@ -1,0 +1,162 @@
+{
+  "This product is absolutely amazing! Best purchase I've ever made. Highly recommend to everyone!": {
+    "sentiment": "positive",
+    "rating": 5
+  },
+  "Terrible experience. The product broke within a week. Complete waste of money. Very disappointed.": {
+    "sentiment": "negative",
+    "rating": 1
+  },
+  "It's okay, nothing special. Does what it's supposed to do. Average quality for the price.": {
+    "sentiment": "neutral",
+    "rating": 3
+  },
+  "I love this! The quality is outstanding and it exceeded all my expectations. Perfect!": {
+    "sentiment": "positive",
+    "rating": 5
+  },
+  "Worst purchase ever. Poor quality, bad customer service, and not worth the money at all.": {
+    "sentiment": "negative",
+    "rating": 1
+  },
+  "Pretty good product. Works well and I'm satisfied with it. Would buy again.": {
+    "sentiment": "positive",
+    "rating": 4
+  },
+  "Not great, not terrible. It's just fine. Nothing to complain about but nothing impressive either.": {
+    "sentiment": "neutral",
+    "rating": 3
+  },
+  "Absolutely horrible. Broke immediately and customer support was useless. Do not buy this!": {
+    "sentiment": "negative",
+    "rating": 1
+  },
+  "Really happy with this purchase! Good quality and fast delivery. Definitely recommend.": {
+    "sentiment": "positive",
+    "rating": 4
+  },
+  "Disappointing. Expected better quality for this price. Not satisfied with the purchase.": {
+    "sentiment": "negative",
+    "rating": 2
+  },
+  "It's alright. Does the job but nothing extraordinary. Average product overall.": {
+    "sentiment": "neutral",
+    "rating": 3
+  },
+  "Fantastic! This is exactly what I needed. Great value for money and excellent quality.": {
+    "sentiment": "positive",
+    "rating": 5
+  },
+  "Very poor quality. Not as described and stopped working after two days. Avoid!": {
+    "sentiment": "negative",
+    "rating": 1
+  },
+  "Nice product. I'm pleased with it. Good features and reasonable price point.": {
+    "sentiment": "positive",
+    "rating": 4
+  },
+  "Meh. It's acceptable but could be better. Works fine but not impressive at all.": {
+    "sentiment": "neutral",
+    "rating": 3
+  },
+  "One of the best restaurants I have ever visited. The food was exquisite, service impeccable, and the atmosphere was magical. A true five-star experience!": {
+    "sentiment": "positive",
+    "rating": 5
+  },
+  "This laptop is a beast! Lightning-fast performance, gorgeous display, and the battery lasts all day. Worth every penny \\u2014 absolutely love it!": {
+    "sentiment": "positive",
+    "rating": 5
+  },
+  "The hotel stay was phenomenal. Spotlessly clean rooms, incredibly friendly staff, and the breakfast buffet was outstanding. Can't wait to come back!": {
+    "sentiment": "positive",
+    "rating": 5
+  },
+  "I finished this book in one sitting \\u2014 I couldn't put it down! The storytelling is gripping, the characters are vivid, and the ending blew my mind. Masterpiece!": {
+    "sentiment": "positive",
+    "rating": 5
+  },
+  "Great customer service! The representative was helpful, patient, and resolved my issue quickly. A small wait time, but overall a very positive experience.": {
+    "sentiment": "positive",
+    "rating": 4
+  },
+  "Really solid headphones. The sound quality is crisp and clear, noise cancellation works great, and they're very comfortable to wear for long sessions.": {
+    "sentiment": "positive",
+    "rating": 4
+  },
+  "Enjoyed the movie a lot. Great performances, stunning visuals, and a compelling story. A couple of slow scenes in the middle but overall very entertaining.": {
+    "sentiment": "positive",
+    "rating": 4
+  },
+  "The course material was well-structured and easy to follow. I learned a ton and the instructor explained everything clearly. Would recommend to beginners!": {
+    "sentiment": "positive",
+    "rating": 4
+  },
+  "The coffee shop was decent. The drinks were fine and the seating was comfortable enough, but the prices felt a bit high for what you get. I might return.": {
+    "sentiment": "neutral",
+    "rating": 3
+  },
+  "The app works but it's nothing groundbreaking. The interface is a bit cluttered and it occasionally lags, but it gets the job done for everyday use.": {
+    "sentiment": "neutral",
+    "rating": 3
+  },
+  "Mixed feelings about this hotel. The location was perfect and the room was clean, but the air conditioning was noisy and the Wi-Fi was unreliable.": {
+    "sentiment": "neutral",
+    "rating": 3
+  },
+  "The meal was average \\u2014 not bad, but not memorable either. The pasta was a bit overcooked and the sauce lacked seasoning. Service was prompt though.": {
+    "sentiment": "neutral",
+    "rating": 3
+  },
+  "It's an okay keyboard. Typing feel is acceptable and build quality is passable. Not the best I've used but certainly not the worst either.": {
+    "sentiment": "neutral",
+    "rating": 3
+  },
+  "Below expectations. The packaging was damaged, setup took forever, and performance is noticeably slower than advertised. Probably won't buy from this brand again.": {
+    "sentiment": "negative",
+    "rating": 2
+  },
+  "The customer support was frustrating. I waited 45 minutes on hold only to be transferred twice without getting my issue resolved. Very disappointing service.": {
+    "sentiment": "negative",
+    "rating": 2
+  },
+  "The film started with promise but quickly fell apart. Plot holes everywhere, lazy writing, and the CGI looked cheap. Wasted two hours of my evening.": {
+    "sentiment": "negative",
+    "rating": 2
+  },
+  "Mediocre food. My steak was overcooked and the sides were cold. The staff seemed rushed and forgot one of our drinks. Not worth the price they charge.": {
+    "sentiment": "negative",
+    "rating": 2
+  },
+  "Absolutely disgraceful. I received a completely different product from what was shown in the listing. Attempts to contact the seller have been ignored. Scam!": {
+    "sentiment": "negative",
+    "rating": 1
+  },
+  "Never again. The delivery took three weeks, the item arrived broken, and the return process was an absolute nightmare. This company should be shut down.": {
+    "sentiment": "negative",
+    "rating": 1
+  },
+  "The worst hotel experience of my life. Dirty rooms, cockroaches in the bathroom, and the front desk staff was rude. I demanded a refund and was refused.": {
+    "sentiment": "negative",
+    "rating": 1
+  },
+  "This software is a disaster. It crashes every 10 minutes, deleted my project files twice, and the so-called 'support team' never responded to my tickets.": {
+    "sentiment": "negative",
+    "rating": 1
+  },
+  "Dreadful experience from start to finish. The food was cold, the waiter was dismissive, and we were charged for items we never ordered. Absolute disgrace.": {
+    "sentiment": "negative",
+    "rating": 1
+  },
+  "Incredible concert experience! The sound was crystal clear, the setlist was perfect, and the crowd energy made it truly unforgettable. One of the best nights of my life!": {
+    "sentiment": "positive",
+    "rating": 5
+  },
+  "The gym is functional. Equipment is mostly available during off-peak hours, cleanliness is acceptable, though some machines are outdated. Decent for the monthly fee.": {
+    "sentiment": "neutral",
+    "rating": 3
+  },
+  "Complete rip-off. Paid premium price for what turned out to be a cheap knockoff. The materials feel flimsy, the stitching is already unravelling, and returns are refused.": {
+    "sentiment": "negative",
+    "rating": 1
+  }
+}
