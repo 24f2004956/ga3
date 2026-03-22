@@ -1,0 +1,6 @@
+{
+  "prompt": "A hyper-realistic, physical scene in a dark workshop. A bright spotlight shines on an intensely complex, chaotic 3D wireframe sculpture made of tangled metal. The light casts a sharp, flat 2D shadow of the sculpture onto the blank white wall behind it. An artist is carefully rotating the 3D sculpture by its base, studying the flat 2D shadow on the wall to find the single exact angle where the 2D shadow reveals the maximum possible width, detail, and structural spread, effectively capturing the most informative silhouette of the high-dimensional object in only two dimensions.",
+  "model": "DALL·E 3",
+  "concept": "Dimensionality Reduction",
+  "metaphor": "Rotating a chaotic 3D wireframe sculpture under a spotlight to find the exact angle where its flat 2D shadow captures the absolute maximum amount of structural variance and shape."
+}
